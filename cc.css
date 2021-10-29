@@ -11966,11 +11966,17 @@ body {
 }
 
 .no-content {
-	background: url(https://i.imgur.com/KZylgoX.png) no-repeat 50% 50%;
-	height: 240px;
+	height: 220px;
 	line-height: 240px;
 	text-align: center;
-	margin-top: 20px
+	margin-top: 20px;
+	  background-image: url(https://i.imgur.com/KZylgoX.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
 }
 
 .video-content {
